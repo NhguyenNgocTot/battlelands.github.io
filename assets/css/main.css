@@ -732,10 +732,6 @@ ul.nav-footer > *:is(.first-row, .second-row) {
     padding-right: 100px;
   }
 
-  .nav-top-inner, .container {
-    max-width: 1720px;
-  }
-
   .nav-items .item {
     margin: 0 30px;
   }
@@ -1891,6 +1887,11 @@ footer .vector {
 @media screen and (min-width: 1500px) {
   .nav-top-inner, .container {
     max-width: 1430px;
+  }
+}
+@media screen and (min-width: 1920px) {
+  .nav-top-inner, .container {
+    max-width: 1720px;
   }
 }
 @media (min-width: 1600px) and (max-width: 1919px) {
