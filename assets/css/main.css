@@ -1962,6 +1962,14 @@ footer .vector {
   .section-gameplay .container .container-inner .mySwiper2 {
     height: 540px;
   }
+
+  .section-gameplay .content-slide {
+    max-width: 410px;
+  }
+
+  .section-gameplay .section-title {
+    margin-top: 25px;
+  }
 }
 @media (min-width: 992px) and (max-width: 1299px) {
   .section-gameplay .gameplay-slider {
