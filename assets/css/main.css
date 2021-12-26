@@ -1970,6 +1970,11 @@ footer .vector {
   .section-gameplay .section-title {
     margin-top: 25px;
   }
+
+  .section-7 .characters_weapons_box .list_weapon li,
+.section-7 .characters_weapons_box .list_charactor li {
+    max-width: 110px;
+  }
 }
 @media (min-width: 992px) and (max-width: 1299px) {
   .section-gameplay .gameplay-slider {
