@@ -188,11 +188,19 @@ i.discord {
 .trailer-wrapper .video video {
   width: 100%;
 }
+.trailer-wrapper .video:hover .icn-pause {
+  opacity: 1;
+  visibility: visible;
+}
 .trailer-wrapper .playPause-btn {
   position: absolute;
 }
 .trailer-wrapper .icn-pause-play.icn-pause {
   display: none;
+}
+.trailer-wrapper .icn-pause {
+  opacity: 0;
+  visibility: hidden;
 }
 .trailer-wrapper .image-video {
   position: absolute;

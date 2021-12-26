@@ -174,11 +174,21 @@ i.discord {
       video{
         width: 100%;
       }
+      &:hover{
+        .icn-pause{
+          opacity: 1; 
+          visibility: visible;
+        }
+      }
     }
     .playPause-btn{
       position: absolute;
     }
     .icn-pause-play.icn-pause{display: none;}
+    .icn-pause{
+      opacity: 0;
+      visibility: hidden;
+    }
     .image-video{
       position: absolute;
       top: 0;
