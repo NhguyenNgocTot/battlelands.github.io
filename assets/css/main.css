@@ -298,11 +298,7 @@ i.discord {
 
 .section-4 .container {
   height: auto;
-  position: absolute;
   left: 50%;
-  top: 1rem;
-  -webkit-transform: translateX(-50%);
-          transform: translateX(-50%);
   z-index: 999;
 }
 
@@ -1290,6 +1286,11 @@ header .btn_header::before {
   transition: all 0.3s;
 }
 
+.section-gameplay.section-4 {
+  height: auto;
+  padding-bottom: 40px;
+}
+
 .section-gameplay {
   background-position: bottom;
 }
@@ -1922,6 +1923,14 @@ footer .vector {
     height: 160px;
   }
 
+  .section-4 .container {
+    max-width: 1100px;
+  }
+
+  .section-gameplay.section-4 .container .container-inner .mySwiper {
+    height: 170px;
+  }
+
   .section-gameplay .container .container-inner {
     padding: 0;
   }
@@ -1977,7 +1986,7 @@ footer .vector {
   }
 }
 @media (min-width: 992px) and (max-width: 1299px) {
-  .section-gameplay .gameplay-slider {
+  .section-gameplay.section-4 .gameplay-slider {
     max-width: 800px;
   }
 
